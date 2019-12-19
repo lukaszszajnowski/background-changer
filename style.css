@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: teal;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 60vh;
+    height: 60vh;
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    font-family: 'Baloo Bhaijaan', cursive;
+    color: #fff;
+    text-shadow: 3px 5px 0px #000000;
+}
+
+.box {
+    background-color: pink;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.firebrick {
+    background-color: firebrick;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.midnightblue {
+    background-color: midnightblue;
+}
+
+.tomato {
+    background-color: tomato;
+}
